@@ -1,0 +1,165 @@
+*{
+margin:0px;
+padding:0px;
+
+}
+body{
+	margin:0;
+    padding:0;
+
+	
+}
+.header{
+	width:30%;
+	margin:50px auto 0px;
+	color:white;
+	background:#5f9ea0;
+	text-align:center;
+	border-bottom:none;
+	border:1px solid #80c4de;
+	border-radius:10px 10px 0px 0px;
+	padding:30px;
+}
+form,.content{
+	width:31.5%;
+	margin:0px auto;
+	padding:20px;
+	border:1px solid #80c4de;
+	background:white;
+	border-radius:0px 0px 10px 10px;
+}
+.input-group{
+	margin:10px 0px 10px 0px;
+}
+.input-group label{
+	margin:3px;
+	display:block;
+	text-align:left;
+}
+.input-group input{
+	height:30px;
+	width:93%;
+	padding:5px 10px;
+	font-size:16px;
+	border-radius:5px;
+	border:1px solid gray;
+}
+.btn{
+	padding:10px;
+	font-size:15px;
+	color:white;
+	background:#5f9ea0;
+	border:none;
+	border-radius:5px;
+}
+.error{
+	width:92%;
+	margin:0px auto;
+	padding:10px;
+	border:1px solid #a94442;
+	color:#a94442;
+	background:#f2dede;
+	border-radius:5px;
+	text-align:left;
+}
+.success{
+	color:#3c763d;
+	background:#dff0d8;
+	border:1px solid #3c763d;
+	margin-bottom:20px;
+}
+
+/*--------------------*/
+
+
+.sb{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:white;
+	height:60px;
+	border-radius:40px;
+	padding:10px;
+	border:1px solid #ddd;
+	box-shadow: 3px 3px #ddd;
+}
+.sbu{
+	
+	color:blue;
+	float:right;
+	width:80px;
+	height:35px;
+	border-radius:50%;
+	background:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.st{
+border:none;
+background:none;
+outline:none;
+float:left;
+padding:0;
+color:black;
+font-size:16px;
+transition:0.4s;
+line-height:40px;
+width:450px;
+}
+
+.container{
+	width:90%;
+	margin: 0 auto;
+}
+.navbar{
+	width:100%;
+	overflow:hidden;
+	height:70px;
+	line-height:70px;
+	background:#fff;
+	border-bottom:2px solid red;
+}
+.logo{
+	width:60px;
+	float:left;
+}
+/*ul tag*/
+
+.menu{
+	float:right;
+}
+.menu li{
+	float:left;
+	width:120px;
+	
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	list-style:none;
+}
+.menu li a{
+color:#000;
+text-decoration:none;
+font-family:calibri;
+text-transform:uppercase;
+/*display:block;*/
+}
+.menu li:hover{
+	background:#dc3545;
+}
+.menu li a:hover{
+	color:#fff;
+	
+}
+/*Image*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+
